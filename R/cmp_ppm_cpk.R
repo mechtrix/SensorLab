@@ -9,8 +9,8 @@
 #' ppm <- cmp_ppm_cpk(2)
 cmp_ppm_cpk <- function(process_cpk){
 
-  p_process_lo <- 1-pnorm(process_cpk*3) # probability for fail part out of spec because of lower limit
-  p_process_hi <- 1-pnorm(process_cpk*3,lower.tail = TRUE) # probability for fail part out of spec because of upper limit
+  p_process_lo <- 1-stats::pnorm(process_cpk*3) # probability for fail part out of spec because of lower limit
+  p_process_hi <- 1-stats::pnorm(process_cpk*3,lower.tail = TRUE) # probability for fail part out of spec because of upper limit
 
   dpmo <- round((p_process_lo+p_process_hi)*1000000,digits = 0) # ppm calculation
 
