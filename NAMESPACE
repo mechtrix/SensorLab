@@ -2,4 +2,5 @@
 
 export("%>%")
 export(cmp_ppm_cpk)
+export(read_voetsch)
 importFrom(magrittr,"%>%")
