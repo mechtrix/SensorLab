@@ -14,5 +14,7 @@ Imports:
     janitor,
     lubridate,
     magrittr,
+    purrr,
     readr,
-    stats
+    stats,
+    utils

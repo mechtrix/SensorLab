@@ -1,0 +1,11 @@
+utils::globalVariables(
+  c(
+    "idx_start",
+    "idx_end",
+    "cycles_start",
+    "cycles_end",
+    "time",
+    "cycle_number",
+    "date_time"
+    )
+  )
