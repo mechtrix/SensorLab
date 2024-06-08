@@ -6,6 +6,10 @@ utils::globalVariables(
     "cycles_end",
     "time",
     "cycle_number",
-    "date_time"
+    "date_time",
+    "Reference",
+    "Prediction",
+    "Freq",
+    "rating"
     )
   )
