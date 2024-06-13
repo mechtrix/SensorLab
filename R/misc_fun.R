@@ -14,7 +14,7 @@
 
 sig_fun <- function(x,beta_0,beta_1){
 
-  y <- 1/(1+exp(-beta_0+beta_1*x))
+  y <- 1/(1+exp(-beta_0-beta_1*x))
 
   return(y)
 
