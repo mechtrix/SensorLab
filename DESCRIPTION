@@ -15,7 +15,10 @@ Imports:
     janitor,
     lubridate,
     magrittr,
+    modelr,
     purrr,
     readr,
+    scales,
     stats,
+    tibble,
     utils

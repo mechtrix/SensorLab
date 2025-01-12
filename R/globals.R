@@ -10,6 +10,11 @@ utils::globalVariables(
     "Reference",
     "Prediction",
     "Freq",
-    "rating"
+    "rating",
+    "stage_idx",
+    "pred",
+    "x",
+    "y",
+    "cost"
     )
   )
