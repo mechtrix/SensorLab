@@ -21,4 +21,5 @@ Imports:
     scales,
     stats,
     tibble,
+    tidyr,
     utils

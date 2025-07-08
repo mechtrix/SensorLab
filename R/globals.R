@@ -15,6 +15,7 @@ utils::globalVariables(
     "pred",
     "x",
     "y",
-    "cost"
-    )
+    "cost",
+    "combinations_per_product"
   )
+)
