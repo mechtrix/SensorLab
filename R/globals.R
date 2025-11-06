@@ -16,6 +16,8 @@ utils::globalVariables(
     "x",
     "y",
     "cost",
-    "combinations_per_product"
+    "combinations_per_product",
+    "lower_percentile",
+    "upper_percentile"
   )
 )
